@@ -1,6 +1,6 @@
-export default (state, action) => {
-    switch(action.type) {
-        default:
-            return state;
-    }        
-}
+export const AppReducer = (state, action) => {
+	switch (action.type) {
+		default:
+			return state;
+	}
+};
